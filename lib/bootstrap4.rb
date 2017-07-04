@@ -1,7 +1,7 @@
-require 'bootstrap/version'
+require 'bootstrap4/version'
 require 'popper_js'
 
-module Bootstrap
+module Bootstrap4
   class << self
     # Inspired by Kaminari
     def load!
@@ -62,8 +62,8 @@ module Bootstrap
 
     def register_compass_extension
       ::Compass::Frameworks.register(
-          'bootstrap',
-          :version               => Bootstrap::VERSION,
+          'bootstrap4',
+          :version               => Bootstrap4::VERSION,
           :path                  => gem_path,
           :stylesheets_directory => stylesheets_path,
           :templates_directory   => File.join(gem_path, 'templates')
@@ -71,7 +71,7 @@ module Bootstrap
     end
 
     def register_rails_engine
-      require 'bootstrap/engine'
+      require 'bootstrap4/engine'
     end
 
     def register_sprockets
@@ -85,4 +85,4 @@ module Bootstrap
   end
 end
 
-Bootstrap.load!
+Bootstrap4.load!

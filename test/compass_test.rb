@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class CompassTest < Minitest::Test
-  COMPASS_CMD = 'compass create tmp/new-compass-project -r bootstrap --using bootstrap --trace --force'
+  COMPASS_CMD = 'compass create tmp/new-compass-project -r bootstrap4 --using bootstrap4 --trace --force'
 
   def test_create_project
     command = [

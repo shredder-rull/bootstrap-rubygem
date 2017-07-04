@@ -5,7 +5,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): button.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 

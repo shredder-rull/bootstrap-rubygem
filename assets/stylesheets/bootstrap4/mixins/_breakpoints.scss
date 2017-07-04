@@ -93,7 +93,17 @@
   $min: breakpoint-min($name, $breakpoints);
   $max: breakpoint-max($name, $breakpoints);
 
-  @media (min-width: $min) and (max-width: $max) {
-    @content;
+  @if $min == null {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else if $max == null {
+    @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $min) and (max-width: $max) {
+      @content;
+    }
   }
 }

@@ -1,6 +1,6 @@
 description 'Bootstrap'
 
-# Stylesheet importing bootstrap
+# Stylesheet importing bootstrap4
 stylesheet 'styles.scss'
 
 # Bootstrap variable overrides file

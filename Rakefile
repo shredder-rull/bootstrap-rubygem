@@ -44,7 +44,7 @@ end
 desc 'Dumps output to a CSS file for testing'
 task :debug do
   require 'sass'
-  require './lib/bootstrap'
+  require './lib/bootstrap4'
   require 'term/ansicolor'
   require 'autoprefixer-rails'
   path = Bootstrap.stylesheets_path
@@ -58,7 +58,7 @@ task :debug do
   end
 end
 
-desc 'Update bootstrap from upstream'
+desc 'Update bootstrap4 from upstream'
 task :update, :branch do |t, args|
   require './tasks/updater'
   Updater.new(branch: args[:branch]).update_bootstrap

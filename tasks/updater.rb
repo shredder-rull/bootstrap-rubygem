@@ -18,7 +18,7 @@ class Updater
   include Js
   include Scss
 
-  def initialize(repo: 'twbs/bootstrap', branch: 'master', save_to: {}, cache_path: 'tmp/bootstrap-cache')
+  def initialize(repo: 'twbs/bootstrap4', branch: 'master', save_to: {}, cache_path: 'tmp/bootstrap4-cache')
     @logger     = Logger.new
     @repo       = repo
     @branch     = branch || 'master'
@@ -26,8 +26,8 @@ class Updater
     @cache_path = cache_path
     @repo_url   = "https://github.com/#@repo"
     @save_to    = {
-        js:    'assets/javascripts/bootstrap',
-        scss:  'assets/stylesheets/bootstrap'}.merge(save_to)
+        js:    'assets/javascripts/bootstrap4',
+        scss:  'assets/stylesheets/bootstrap4'}.merge(save_to)
   end
 
   def_delegators :@logger, :log, :log_status, :log_processing, :log_transform, :log_file_info, :log_processed, :log_http_get_file, :log_http_get_files, :silence_log
@@ -60,7 +60,7 @@ class Updater
 
   # Update version.rb file with BOOTSTRAP_SHA
   def store_version
-    path    = 'lib/bootstrap/version.rb'
+    path    = 'lib/bootstrap4/version.rb'
     content = File.read(path).sub(/BOOTSTRAP_SHA\s*=\s*['"][^'"]*['"]/, "BOOTSTRAP_SHA = '#@branch_sha'")
     File.open(path, 'w') { |f| f.write(content) }
   end

@@ -11,7 +11,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): popover.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 

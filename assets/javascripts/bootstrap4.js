@@ -29,7 +29,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): util.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -79,7 +79,7 @@ var Util = function ($) {
       return false;
     }
 
-    var el = document.createElement('bootstrap');
+    var el = document.createElement('bootstrap4');
 
     for (var name in TransitionEndEvent) {
       if (el.style[name] !== undefined) {
@@ -182,7 +182,7 @@ var Util = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): alert.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -361,7 +361,7 @@ var Alert = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): button.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -531,7 +531,7 @@ var Button = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): carousel.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -1038,7 +1038,7 @@ var Carousel = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): collapse.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -1381,7 +1381,7 @@ var Collapse = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): dropdown.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -1791,7 +1791,7 @@ var Dropdown = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): modal.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -2362,7 +2362,7 @@ var Modal = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): scrollspy.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -2676,7 +2676,7 @@ var ScrollSpy = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): tab.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -2928,7 +2928,7 @@ var Tab = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): tooltip.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -3601,7 +3601,7 @@ var Tooltip = function ($) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): popover.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap4/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
