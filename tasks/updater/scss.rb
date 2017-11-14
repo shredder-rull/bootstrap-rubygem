@@ -21,6 +21,7 @@ class Updater
         # As we moved the files, adjust imports accordingly.
         File.write to, File.read(to).gsub(/ "/, ' "bootstrap4/')
       end
+<<<<<<< HEAD
 
       log_status 'Generating variable template file'
       save_file 'templates/project/_bootstrap-variables.scss',
@@ -33,6 +34,8 @@ class Updater
                         gsub(/^(?=[$@)}]|[ ]{2})/, '// ').
                         # Remove the !default modifier
                         gsub(/ !default/, '')
+=======
+>>>>>>> twitter/master
     end
   end
 end
